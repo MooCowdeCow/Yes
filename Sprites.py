@@ -1,7 +1,8 @@
 import pygame
 from settings import *
-from sprites import *
+from sprites2 import *
 from pygame.sprite import Sprite
+
 class Player(Sprite):
     # sprite for player
     # properties of the class
