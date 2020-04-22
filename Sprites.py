@@ -1,6 +1,7 @@
 import pygame
+import random
 from settings import *
-from sprites2 import *
+import sprites2
 from pygame.sprite import Sprite
 
 class Player(Sprite):
@@ -15,7 +16,7 @@ class Player(Sprite):
         '''sets transparent color key to black'''
         # self.image.set_colorkey(BLACK)
         self.rect = self.image.get_rect()
-        self.rect.center = (WIDTH / 2, HEIGHT / 2)
+        self.rect.center = (WIDTH/2, HEIGHT/2)
         # self.screen_rect = screen.get_rect()
         self.vx = 0
         self.vy = 0
